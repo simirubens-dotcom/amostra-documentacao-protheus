@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Rubens Simi — Amostra de documentação de projeto Protheus</title>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #1f2933; }
+  header { background: #12355b; color: #fff; padding: 32px 24px; }
+  header h1 { margin: 0 0 6px; font-size: 26px; }
+  header p { margin: 0; opacity: .85; }
+  main { max-width: 960px; margin: 0 auto; padding: 24px; }
+  section { background: #fff; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  h2 { margin-top: 0; font-size: 20px; color: #12355b; }
+  .docs { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+  .doc { border: 1px solid #d9e2ec; border-radius: 6px; padding: 14px; }
+  .doc b { display: block; margin-bottom: 6px; color: #12355b; }
+  .doc span { font-size: 14px; line-height: 1.4; display: block; min-height: 78px; }
+  .doc a { display: inline-block; margin-top: 10px; color: #fff; background: #1d6fb8; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+  video { width: 100%; border-radius: 6px; background: #000; }
+  ul { line-height: 1.6; }
+  footer { text-align: center; font-size: 13px; color: #52606d; padding: 10px 0 30px; }
+  .obs { font-size: 13px; color: #52606d; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Amostra de documentação de projeto — TOTVS Protheus</h1>
+  <p>Rubens Carneiro Simi · Analista Sênior TOTVS Protheus</p>
+</header>
+<main>
+  <section>
+    <h2>O que está aqui</h2>
+    <p>O pacote documental completo de uma entrega real, do jeito que vai para o cliente: especificação funcional, termo de validação com evidências, manual do usuário, controle de mudança e vídeo de treinamento. O tema é o recebimento fiscal no módulo de Compras: importação do XML de NF-e, CT-e e NFS-e, amarração automática ao pedido de compra, pré-nota e classificação automática.</p>
+    <ul>
+      <li><b>Especificação antes do código:</b> regra de negócio, fluxos do processo, modelo de dados (MER), parâmetros e pontos a validar com a área.</li>
+      <li><b>Validação com evidência:</b> cada funcionalidade com objetivo, pré-condição, passo a passo, resultado esperado e print da tela.</li>
+      <li><b>Linguagem do usuário:</b> o manual ensina o dia a dia de Fiscal, Compras e Recebimento, com perguntas frequentes.</li>
+      <li><b>Implantação controlada:</b> GMUD com impacto, riscos, plano de ação e plano de retorno.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Documentos</h2>
+    <div class="docs">
+      <div class="doc"><b>MIT044 — Especificação da Customização</b><span>Requisitos, fluxos do processo, MER, parâmetros e pontos a validar. 43 páginas.</span><a href="documentos/MIT044-especificacao-importador-xml.pdf" target="_blank">Abrir PDF</a></div>
+      <div class="doc"><b>MIT010 — Termo de Validação</b><span>Casos de teste da homologação, com evidência em tela de cada resultado. 50 páginas.</span><a href="documentos/MIT010-termo-de-validacao-importador-xml.pdf" target="_blank">Abrir PDF</a></div>
+      <div class="doc"><b>Manual de Operação</b><span>Passo a passo para o usuário final, com telas numeradas e perguntas frequentes. 45 páginas.</span><a href="documentos/manual-de-operacao-importador-xml.pdf" target="_blank">Abrir PDF</a></div>
+      <div class="doc"><b>GMUD — Controle de Mudança</b><span>Impacto no negócio, riscos, plano de implantação e de retorno para a produção. 7 páginas.</span><a href="documentos/GMUD-amarracao-pedido-xped.pdf" target="_blank">Abrir PDF</a></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Vídeo de treinamento (6 min)</h2>
+    <p>Vídeo narrado entregue aos usuários junto com a documentação: a amarração do XML ao pedido de compra, conferindo unidade de medida e saldo.</p>
+    <video controls preload="metadata" src="video/treinamento-amarracao-xped.mp4"></video>
+  </section>
+
+  <p class="obs">Documentos de projetos reais, com os nomes de cliente, consultoria, fornecedores e CNPJ retirados do texto. Uso exclusivo para avaliação em processo seletivo.</p>
+</main>
+<footer>Rubens Carneiro Simi · (11) 95352-3317 · rubens.c.simi@gmail.com · <a href="https://simirubens-dotcom.github.io/cv-rubens-simi/">portfólio</a></footer>
+</body>
+</html>
